@@ -11,7 +11,6 @@ This is a fun personal project, not a platform.
 
 ## Screenshot
 
-_Add a screenshot here once you have one._
 
 ```
 docs/screenshot.png
