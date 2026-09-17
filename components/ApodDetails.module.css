@@ -1,0 +1,54 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.date {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9aa3bd;
+  margin: 0;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin: 0;
+  color: #e8ecf7;
+}
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}
+
+.explanation {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #cdd3e6;
+  margin: 0;
+  max-width: 68ch;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #22273a;
+  font-size: 0.8rem;
+  color: #9aa3bd;
+}
+
+.copyright {
+  font-style: italic;
+}
+
+.attribution {
+  color: #6f7794;
+}

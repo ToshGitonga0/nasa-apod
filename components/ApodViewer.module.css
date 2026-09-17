@@ -1,0 +1,24 @@
+.viewer {
+  width: 100%;
+  max-width: 62rem;
+  position: relative;
+  z-index: 1;
+}
+
+.panel {
+  background: linear-gradient(180deg, #10131c 0%, #0a0c14 100%);
+  border: 1px solid #22273a;
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .panel {
+    padding: 2rem;
+    gap: 2rem;
+  }
+}

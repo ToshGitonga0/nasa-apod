@@ -1,0 +1,31 @@
+.homeMain {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  position: relative;
+  overflow-x: hidden;
+  background:
+    radial-gradient(ellipse at 20% -10%, rgba(80, 90, 140, 0.18), transparent 55%),
+    radial-gradient(ellipse at 90% 110%, rgba(60, 50, 90, 0.15), transparent 55%),
+    #05060a;
+}
+
+.homeMain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 80% 40%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(1px 1px at 60% 80%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 30% 65%, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(1px 1px at 45% 15%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(1px 1px at 92% 85%, rgba(255, 255, 255, 0.35), transparent);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
